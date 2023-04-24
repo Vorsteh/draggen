@@ -22,10 +22,7 @@ if(!empty($_SESSION['id'])){
     <h1 class="text-center text-5xl font-semibold">Välkommen <?php echo $row['name']?></h1>
     <div class='m-auto mt-32 w-2/5 text-center border-2 border-black p-12 block'>
         <div class='p-3 bg-gray-100 shadow-sm hover:bg-gray-200 w-1/5 rounded-md mb-3 m-auto font-semibold'>
-            <a href="login.php">Logga in</a>
-        </div>
-        <div class='p-3 bg-gray-100 shadow-sm hover:bg-gray-200 w-1/5 rounded-md m-auto  mb-3 font-semibold'>
-            <a href="register.php">Regristera</a>
+            <a href="profile.php">Min Profil</a>
         </div>
         <div class='p-3 bg-gray-100 shadow-sm hover:bg-gray-200 w-1/5 rounded-md m-auto font-semibold'>
             <a href="logout.php">Logga ut</a>

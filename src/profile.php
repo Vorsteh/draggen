@@ -27,8 +27,10 @@ if(!empty($_SESSION['id'])){
     ?>
     <div>
         <img class='rounded-full' width='50px' src="../images/<?php echo $image?>" alt="">
+        <input type="file">
         <p>Användarnamn: <?php echo $usrname ?></p>
         <p>Email: <?php echo $mail ?></p>
+        <a href="logout.php">Logga Ut</a>
     </div>
 </body>
 </html>
